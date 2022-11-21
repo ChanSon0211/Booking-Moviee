@@ -9,7 +9,7 @@ class MovieBooking extends Component {
                 <h2 className='text-center fw-bold my-3'>Đặt Vé Xem Phim Cyber-Movie</h2>
                 <div className='row'>
                     <div className='col-8'>
-                        <div className=' fs-5 bg-black text-white mb-3 '>
+                        <div className=' screen fs-5  mb-3 '>
                             Screen
                         </div>
                         <ChairList/>

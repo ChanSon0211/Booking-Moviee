@@ -1,10 +1,31 @@
+body {
+    background: url(/public/images/photo-1489599849927-2ee91cede3ba.jpg);
+        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h2 {
+    color: rgb(162, 13, 13);
+   
+}
+.screen {
+    border: 2px solid wheat;
+    background-color: white;
+    color: rgb(162, 13, 13);
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+   
+}
+
 .chair {
     width: 40px;
     height: 40px;
     border-radius: 4px;
-
+background-color:  rgb(162, 13, 13);
     transition: all 0.3s  ease-in-out;
     border: 1px solid black;
+    color: black;
     
 }
 .chair:hover{
@@ -12,10 +33,7 @@
         color: white;
      
 }
-.chair.booked {
-    background-color: red;
-    border-color: white;
-}
+
 .chair.booking {
     background-color: blanchedalmond;
     border-color: blanchedalmond;

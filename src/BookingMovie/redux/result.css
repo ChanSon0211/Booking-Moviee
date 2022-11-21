@@ -1,0 +1,14 @@
+tr{
+    color: wheat;
+}
+td {
+    color: wheat;
+}
+.table {
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+}
+.table td {
+ padding: 30px;
+}

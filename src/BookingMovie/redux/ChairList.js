@@ -11,7 +11,7 @@ export class ChairList extends Component {
                 {
                     chairList.map((item) => {
                         return <div  key={item.hang} className='d-flex align-items-center'>
-                            <div style={{width:"30px"}}>
+                            <div style={{width:"30px", color:"wheat" , fontWeight:"regular"  }}>
                                 {item.hang}
                             </div>
                             <div className='d-flex gap-3 mb-2'>
